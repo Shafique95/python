@@ -1,0 +1,155 @@
+1–10: Basic Input and Output
+Program to take user name and greet them
+Input two numbers and display their sum
+Take user’s age and calculate their birth year
+Ask for temperature in Celsius and convert to Fahrenheit
+Take a sentence and count the number of words
+Input a number and check if it’s even or odd
+Take three numbers and find the largest
+Ask for two numbers and swap their values
+Calculate simple interest (SI = PRT/100)
+Convert kilometers to miles
+
+11–20: Variables and Data Types
+11. Declare and print different variable types (int, float, str, bool)
+12. Check the type of a variable using type() function
+13. Assign multiple variables in a single line
+14. Concatenate two strings with input values
+15. Format a string with variables using f-strings
+16. Convert integer to float and vice-versa
+17. Take a float number and round it to two decimal places
+18. Use eval() to take mathematical input and calculate result
+19. Take a boolean input and invert its value
+20. Combine text and numbers in a print statement
+
+21–30: Basic Mathematical Operations
+21. Calculate the square of a number
+22. Find the cube of a number
+23. Calculate the average of three numbers
+24. Compute the remainder of two numbers
+25. Calculate the power of a number (x^y)
+26. Perform floor division between two numbers
+27. Calculate percentage of marks
+28. Solve a linear equation 
+??
+??
++
+??
+=
+0
+ax+b=0
+29. Find absolute difference between two numbers
+30. Calculate the compound interest
+
+31–40: Geometric Formulas
+31. Calculate the area of a square
+32. Find the area of a rectangle
+33. Calculate the perimeter of a rectangle
+34. Find the area of a triangle using base and height
+35. Calculate the circumference of a circle
+36. Find the area of a circle using its radius
+37. Calculate the volume of a cylinder
+38. Find the surface area of a sphere
+39. Compute the volume of a cone
+40. Calculate the diagonal of a rectangle
+
+41–50: Algebraic Equations
+41. Solve a quadratic equation
+42. Simplify the expression 
+(
+??
++
+??
+)
+2
+(a+b) 
+2
+ 
+43. Simplify 
+(
+??
+-
+??
+)
+3
+(a-b) 
+3
+ 
+44. Calculate the roots of a quadratic equation
+45. Solve a system of two linear equations
+46. Expand 
+(
+??
++
+??
++
+??
+)
+2
+(x+y+z) 
+2
+ 
+47. Compute the factorial of a number
+48. Calculate the value of an arithmetic sequence
+49. Find the nth term of a geometric sequence
+50. Compute the sum of the first n natural numbers
+
+51–60: Statistical Formulas
+51. Calculate the mean of a list of numbers
+52. Find the median of a list of numbers
+53. Compute the mode of a list of numbers
+54. Calculate the standard deviation
+55. Compute variance
+56. Find the range of a data set
+57. Calculate the weighted average
+58. Compute the correlation coefficient
+59. Calculate the z-score of a data point
+60. Compute the moving average
+
+61–70: Financial Calculations
+61. Calculate monthly mortgage payments
+62. Compute the future value of an investment
+63. Find the present value of an investment
+64. Calculate depreciation using the straight-line method
+65. Compute compound annual growth rate (CAGR)
+66. Find the break-even point
+67. Calculate gross profit margin
+68. Compute net profit margin
+69. Find the ROI (Return on Investment)
+70. Calculate the EMI for a loan
+
+71–80: Advanced Math Operations
+71. Calculate the greatest common divisor (GCD)
+72. Find the least common multiple (LCM)
+73. Compute the sine of an angle
+74. Calculate the cosine of an angle
+75. Find the tangent of an angle
+76. Compute logarithms with different bases
+77. Calculate the exponential value of a number
+78. Solve for permutations of n and r
+79. Compute combinations of n and r
+80. Find the nth Fibonacci number
+
+81–90: Geometry with Coordinates
+81. Find the distance between two points
+82. Calculate the midpoint of a line segment
+83. Find the slope of a line
+84. Check if three points are collinear
+85. Compute the area of a triangle given three vertices
+86. Find the equation of a line from two points
+87. Calculate the angle between two lines
+88. Determine if a point lies inside a triangle
+89. Find the centroid of a triangle
+90. Calculate the equation of a circle given its center and radius
+
+91–100: Miscellaneous Applications
+91. Convert a decimal number to binary
+92. Convert a binary number to decimal
+93. Find the HCF of two numbers
+94. Compute the LCM using HCF
+95. Calculate the sum of digits of a number
+96. Reverse the digits of a number
+97. Check if a number is prime
+98. Generate the first n prime numbers
+99. Check if a number is a palindrome
+100. Find the Armstrong numbers in a given range
