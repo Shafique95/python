@@ -1,11 +1,10 @@
 # python
 অবশ্যই! নিচে আমি আপনাকে বাংলায় **FastAPI Cheat Sheet** দিচ্ছি — এতে FastAPI-এর প্রায় সব গুরুত্বপূর্ণ বিষয় **সংক্ষিপ্তভাবে, সহজ ভাষায়, ও উদাহরণসহ** দেওয়া হয়েছে। যারা নতুন শিখছেন বা মাঝপথে মনে করিয়ে নিতে চান — তাদের জন্য এটি অনেক উপকারী হবে।
 
----
+
 
 # 🐍 FastAPI Cheat Sheet (বাংলায় সহজভাবে)
 
----
 
 ## 📦 ইনস্টলেশন
 
@@ -14,7 +13,7 @@ pip install fastapi
 pip install "uvicorn[standard]"  # Run করার জন্য
 ```
 
----
+
 
 ## 🚀 FastAPI অ্যাপ চালানো
 
@@ -26,7 +25,7 @@ uvicorn main:app --reload
 * `app`: FastAPI অ্যাপ অবজেক্টের নাম
 * `--reload`: কোড পরিবর্তন হলে অটো রিফ্রেশ
 
----
+
 
 ## 🏁 বেসিক অ্যাপ
 
@@ -40,7 +39,6 @@ def read_root():
     return {"message": "হ্যালো বাংলাদেশ"}
 ```
 
----
 
 ## 🎯 রাউট (Route) টাইপ
 
@@ -51,7 +49,7 @@ def read_root():
 @app.delete("/item/{id}") # DELETE: ডেটা মুছে ফেলা
 ```
 
----
+
 
 ## 📥 রিকোয়েস্ট প্যারামিটার
 
@@ -65,7 +63,7 @@ def search_items(q: str = ""):
 
 ➡️ `/search?q=apple`
 
----
+
 
 ### ✅ **Path Parameters**
 
@@ -77,7 +75,7 @@ def get_item(item_id: int):
 
 ➡️ `/items/5`
 
----
+
 
 ### ✅ **Request Body (Pydantic ব্যবহার)**
 
@@ -102,7 +100,7 @@ def create_item(item: Item):
 }
 ```
 
----
+
 
 ## 🔁 Response Model
 
@@ -116,7 +114,7 @@ def get_item():
     return {"name": "চিনি", "price": 80}
 ```
 
----
+
 
 ## 🧱 Dependency Injection (যেমন ডাটাবেজ কানেকশন)
 
@@ -132,7 +130,7 @@ def read_data(db=Depends(get_db)):
     return {"db": db}
 ```
 
----
+
 
 ## 🛡️ Form Data, File Upload
 
@@ -156,7 +154,7 @@ def upload(file: UploadFile = File(...)):
     return {"filename": file.filename}
 ```
 
----
+
 
 ## 🧪 Validate Data with Pydantic
 
@@ -173,7 +171,7 @@ class Product(BaseModel):
         return value
 ```
 
----
+
 
 ## 🧾 Custom Response (JSON, HTML)
 
@@ -189,7 +187,7 @@ def json():
     return JSONResponse(content={"message": "OK"})
 ```
 
----
+
 
 ## 🔐 Security (OAuth2, Token)
 
@@ -203,7 +201,7 @@ def read_users_me(token: str = Depends(oauth2_scheme)):
     return {"token": token}
 ```
 
----
+
 
 ## 🔧 Exception Handling
 
@@ -215,7 +213,7 @@ def cause_error():
     raise HTTPException(status_code=404, detail="তথ্য পাওয়া যায়নি")
 ```
 
----
+
 
 ## 📁 Static Files & Templates
 
@@ -225,7 +223,6 @@ from fastapi.staticfiles import StaticFiles
 app.mount("/static", StaticFiles(directory="static"), name="static")
 ```
 
----
 
 ## 🧪 Test with curl or HTTPie
 
@@ -233,14 +230,14 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 http POST http://127.0.0.1:8000/items/ name="ডাল" price=65
 ```
 
----
+
 
 ## 📘 Documentation
 
 * Swagger UI ➡️ `http://localhost:8000/docs`
 * ReDoc ➡️ `http://localhost:8000/redoc`
 
----
+
 
 ## 🎓 সংক্ষেপে টপিক-ওয়ারি রেফারেন্স
 
